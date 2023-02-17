@@ -8,7 +8,7 @@ class Event {
   activity: Activity[];
 }
 
-class Activity {
+export class Activity {
   fromAddress: string;
   toAddress: string;
   hash: string;
